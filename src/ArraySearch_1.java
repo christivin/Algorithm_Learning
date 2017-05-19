@@ -6,7 +6,7 @@ public class ArraySearch_1 {
         // 右上角初始值，第一行最后一列。
         int j=a[0].length-1;
         int i=0;
-
+        //循环
         while((j>=0)&&i<a.length){
             //大于目标值，该行之后肯定都大于目标值，只会在该行，减少列数查找
             if(a[i][j]>target)
